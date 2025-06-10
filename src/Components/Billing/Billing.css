@@ -1,0 +1,38 @@
+.billing-container {
+  display: flex;
+  width: 98%;
+  height: 98vh;
+  margin: auto;
+  background-color: #fff;
+}
+
+.left-container {
+  width: 50%;
+  border: 1px solid #000;
+}
+
+.right-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-right {
+  display: flex;
+  height: 80vh;
+}
+
+.center-container {
+  width: 200px;
+  border: 1px solid #000;
+}
+
+.image-container {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.button-container {
+  height: 40vh;
+  border: 1px solid #000;
+}

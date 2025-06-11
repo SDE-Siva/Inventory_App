@@ -1,6 +1,8 @@
 export const itemsData = [
   {
     itemName: "Coffee Black",
+    chineseName: "咖啡黑",
+    imageURL: "/src/assets/coffee-black.jpg",
     price: 13.5,
     purchased: 44,
     sold: 14,
@@ -9,6 +11,8 @@ export const itemsData = [
   },
   {
     itemName: "Tea Black",
+    chineseName: "红茶",
+    imageURL: "/src/assets/tea-black.jpg",
     price: 11.3,
     purchased: 91,
     sold: 27,
@@ -16,7 +20,9 @@ export const itemsData = [
     purchaseDate: "2025-06-03",
   },
   {
-    itemName: "Chrysanthemum Tea",
+    itemName: "Daisy Mum Tea",
+    chineseName: "菊花茶",
+    imageURL: "/src/assets/chrysanthemum-tea.jpg",
     price: 4.5,
     purchased: 27,
     sold: 17,
@@ -25,6 +31,8 @@ export const itemsData = [
   },
   {
     itemName: "Coffee",
+    chineseName: "咖啡",
+    imageURL: "/src/assets/coffee.jpg",
     price: 16.5,
     purchased: 71,
     sold: 21,
@@ -33,6 +41,8 @@ export const itemsData = [
   },
   {
     itemName: "Tea",
+    chineseName: "茶",
+    imageURL: "/src/assets/tea.avif",
     price: 14.5,
     purchased: 67,
     sold: 7,
@@ -41,6 +51,8 @@ export const itemsData = [
   },
   {
     itemName: "Chinese Tea",
+    chineseName: "中国茶",
+    imageURL: "/src/assets/Chinese Tea.jpg",
     price: 12.5,
     purchased: 41,
     sold: 21,
@@ -49,6 +61,8 @@ export const itemsData = [
   },
   {
     itemName: "Iced Coffee Black",
+    chineseName: "冰咖啡黑",
+    imageURL: "/src/assets/Iced Coffee Black.jpg",
     price: 11.2,
     purchased: 70,
     sold: 57,
@@ -57,6 +71,8 @@ export const itemsData = [
   },
   {
     itemName: "Iced Tea Black",
+    chineseName: "冰红茶",
+    imageURL: "/src/assets/Iced Tea Black.jpg",
     price: 15.3,
     purchased: 40,
     sold: 17,
@@ -65,6 +81,8 @@ export const itemsData = [
   },
   {
     itemName: "Soya Milk",
+    chineseName: "豆奶",
+    imageURL: "/src/assets/Soya Milk.jpg",
     price: 16.5,
     purchased: 37,
     sold: 27,
@@ -73,6 +91,8 @@ export const itemsData = [
   },
   {
     itemName: "Iced Coffee",
+    chineseName: "冰咖啡",
+    imageURL: "/src/assets/Iced Coffee.jpg",
     price: 13.5,
     purchased: 37,
     sold: 27,
@@ -81,6 +101,8 @@ export const itemsData = [
   },
   {
     itemName: "Iced Tea",
+    chineseName: "冰茶",
+    imageURL: "/src/assets/Iced Tea.jpg",
     price: 11.7,
     purchased: 47,
     sold: 26,
@@ -89,6 +111,8 @@ export const itemsData = [
   },
   {
     itemName: "Grass Jelly",
+    chineseName: "仙草",
+    imageURL: "/src/assets/Grass Jelly.jpg",
     price: 5.5,
     purchased: 34,
     sold: 22,
@@ -97,6 +121,8 @@ export const itemsData = [
   },
   {
     itemName: "Coffee C",
+    chineseName: "咖啡C",
+    imageURL: "/src/assets/Coffee C.jpg",
     price: 16.5,
     purchased: 39,
     sold: 27,
@@ -105,6 +131,8 @@ export const itemsData = [
   },
   {
     itemName: "Tea C",
+    chineseName: "茶C",
+    imageURL: "/src/assets/Tea C.jpg",
     price: 4.7,
     purchased: 41,
     sold: 17,
@@ -113,6 +141,8 @@ export const itemsData = [
   },
   {
     itemName: "Black & White",
+    chineseName: "黑白",
+    imageURL: "/src/assets/Black & White.jpg",
     price: 7.3,
     purchased: 41,
     sold: 17,
@@ -121,6 +151,8 @@ export const itemsData = [
   },
   {
     itemName: "Milo",
+    chineseName: "美禄",
+    imageURL: "/src/assets/Milo.jpg",
     price: 11.9,
     purchased: 41,
     sold: 17,
@@ -129,15 +161,18 @@ export const itemsData = [
   },
   {
     itemName: "Iced Milo",
+    chineseName: "冰美禄",
+    imageURL: "/src/assets/icedmilo.jpg",
     price: 23.1,
     purchased: 41,
     sold: 17,
     inStock: 24,
     purchaseDate: "2025-05-05",
   },
-
   {
     itemName: "Streamed Bun",
+    chineseName: "包子",
+    imageURL: "/src/assets/Streamed Bun.jpg",
     price: 5.0,
     purchased: 20,
     sold: 10,
@@ -145,7 +180,9 @@ export const itemsData = [
     purchaseDate: "2025-06-05",
   },
   {
-    itemName: "Streamed Timsum",
+    itemName: "Steamed Timsum",
+    chineseName: "蒸点心",
+    imageURL: "/src/assets/Steamed Timsum.jpg",
     price: 6.0,
     purchased: 25,
     sold: 12,
@@ -154,6 +191,8 @@ export const itemsData = [
   },
   {
     itemName: "Deep Fry Timsum",
+    chineseName: "炸点心",
+    imageURL: "/src/assets/Deep Fry Timsum.jpg",
     price: 6.5,
     purchased: 30,
     sold: 15,
@@ -162,6 +201,8 @@ export const itemsData = [
   },
   {
     itemName: "Bake",
+    chineseName: "烘焙",
+    imageURL: "/src/assets/Bake.jpg",
     price: 4.0,
     purchased: 22,
     sold: 14,
@@ -169,7 +210,9 @@ export const itemsData = [
     purchaseDate: "2025-06-02",
   },
   {
-    itemName: "Noodle/Dumplings",
+    itemName: "Noodle Dumplings",
+    chineseName: "面/饺子",
+    imageURL: "/src/assets/NoodleDumplings.jpg",
     price: 8.5,
     purchased: 35,
     sold: 20,
@@ -178,6 +221,8 @@ export const itemsData = [
   },
   {
     itemName: "Porridge",
+    chineseName: "粥",
+    imageURL: "/src/assets/Porridge.jpg",
     price: 7.0,
     purchased: 40,
     sold: 25,
@@ -186,6 +231,8 @@ export const itemsData = [
   },
   {
     itemName: "Takeaway (Water)",
+    chineseName: "外卖（水）",
+    imageURL: "/src/assets/Takeaway (Water).jpg",
     price: 2.0,
     purchased: 100,
     sold: 80,
@@ -199,5 +246,13 @@ export const requestedItemsData = [
     itemName: "Coffee Black",
     quantity: 50,
     expectedDate: "2025-06-04",
+  },
+];
+
+export const imageMenu = [
+  {
+    english_name: "Iced Milo",
+    chinese_name: "",
+    imageURL: "/src/assets/icedmilo.jpg",
   },
 ];

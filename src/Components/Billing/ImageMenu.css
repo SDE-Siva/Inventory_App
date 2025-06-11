@@ -1,0 +1,6 @@
+.image-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto);
+  padding: 10px;
+}

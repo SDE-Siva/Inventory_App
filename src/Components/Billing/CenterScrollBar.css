@@ -1,0 +1,51 @@
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: 490px;
+  min-height: 346px;
+}
+.scroll-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(192, 187, 187);
+  margin: 3px 0px;
+  cursor: pointer;
+}
+.scroll-button img {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(192, 187, 187);
+}
+.scroll-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  height: 355px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+.item-box {
+  margin-bottom: 5px;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(76, 114, 238);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 800;
+}

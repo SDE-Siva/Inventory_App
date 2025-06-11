@@ -1,14 +1,13 @@
 .billing-container {
   display: flex;
-  width: 98%;
-  height: 98vh;
+  width: 100%;
+  height: 100vh;
   margin: auto;
   background-color: #fff;
 }
 
 .left-container {
   width: 50%;
-  border: 1px solid #000;
 }
 
 .right-container {
@@ -19,20 +18,22 @@
 
 .top-right {
   display: flex;
-  height: 80vh;
+  height: 120vh;
 }
 
 .center-container {
-  width: 200px;
-  border: 1px solid #000;
+  width: 140px;
+  max-height: 120vh;
+  border: 2px solid #f3eded;
+  background-color: #c7ceee;
 }
 
 .image-container {
   width: 100%;
-  border: 1px solid #000;
 }
 
 .button-container {
-  height: 40vh;
-  border: 1px solid #000;
+  height: 45vh;
+  border: 1px solid #f3eded;
+  background-color: rgb(158, 238, 158);
 }

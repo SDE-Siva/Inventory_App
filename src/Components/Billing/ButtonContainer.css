@@ -1,0 +1,41 @@
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, auto);
+  background-color: rgb(165, 241, 165);
+  gap: 5px;
+  padding: 9px 9px;
+  width: 100%;
+}
+
+.buttons-container button {
+  height: 90px;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-group button {
+  height: 43px;
+  width: 100%;
+}
+
+.second {
+  margin-top: 4px;
+}
+
+.green {
+  background: rgb(25, 226, 25) !important;
+}
+
+.arrow-icon img {
+  width: 24px;
+  height: 30px;
+  padding-right: 2px;
+  background-color: orange;
+}

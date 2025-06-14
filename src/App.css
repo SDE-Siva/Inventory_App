@@ -1,5 +1,6 @@
 * {
   background-color: rgb(209, 216, 235);
+  user-select: none;
 }
 
 .app-container {

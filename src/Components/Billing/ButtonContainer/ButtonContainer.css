@@ -19,7 +19,12 @@
   align-items: center;
   justify-content: center;
 }
-
+.links {
+  text-decoration: none;
+}
+.links button {
+  width: 100%;
+}
 .buttons-group button {
   height: 43px;
   width: 100%;

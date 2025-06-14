@@ -16,7 +16,37 @@
   font-size: large;
   color: grey;
 }
+.addItemBlocked {
+  display: none;
+}
 
+.billMenuBlocked {
+  display: none;
+}
+.left-table-container {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.left-table-container::-webkit-scrollbar {
+  width: 2px;
+  height: 8px;
+}
+
+.left-table-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.left-table-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.price-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 .price-table thead th,
 .price-table tbody td {
   background-color: inherit !important;
@@ -26,6 +56,35 @@
   text-align: right;
 }
 
+/* Bill Container */
+
+.bill-container {
+  padding: 12px;
+}
+
+.bill-container .text {
+  font-weight: 600;
+}
+
+.bill-container .line {
+  height: 3px;
+  background-color: rgb(46, 44, 44);
+  margin: 9px 0px;
+}
+.bill-rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.payable {
+  color: rgb(172, 28, 28);
+  font-size: 20px;
+}
+.blue {
+  color: rgb(29, 29, 255);
+}
 /* Bottom Section */
 .bottom-section {
   height: 40vh;
@@ -48,6 +107,11 @@
   height: 37px;
   margin: 24px 60px 0 25px;
   border: 1px solid black;
+}
+
+.input-boxes label {
+  color: rgb(101, 29, 218);
+  font-weight: 500;
 }
 
 .item-number,

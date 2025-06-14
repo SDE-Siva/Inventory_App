@@ -10,6 +10,7 @@
   position: relative;
   border: 2px solid rgb(66, 66, 223);
   background-color: #fff;
+  cursor: pointer;
 }
 
 .item-tile-container img {

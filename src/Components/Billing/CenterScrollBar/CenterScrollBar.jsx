@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
-import "../Billing/CenterScrollBar.css";
-import { itemsData } from "../../utilities/itemsData";
-import { upIcon, downIcon } from "../../assets/images";
+import "../../Billing/CenterScrollBar/CenterScrollBar.css";
+import { itemsData } from "../../../utilities/itemsData";
+import { upIcon, downIcon } from "../../../assets/images";
 
-export const CenterScrollBar = () => {
+export const CenterScrollBar = ({ setOrderUsingClick, addItem }) => {
   const itemData = itemsData;
   const scrollRef = useRef(null);
 
@@ -27,8 +27,16 @@ export const CenterScrollBar = () => {
         <img src={upIcon} alt="" />
       </div>
       <div className="scroll-container" ref={scrollRef}>
-        {itemData.map((item) => (
-          <div className="item-box">{item.itemName}</div>
+        {itemData.map((item, index) => (
+          <div
+            className="item-box"
+            key={index}
+            onClick={() => {
+              addItem === "addItem" ? setOrderUsingClick(item) : "";
+            }}
+          >
+            {item.itemName}
+          </div>
         ))}
       </div>
       <div className="scroll-button down" onClick={scrollDown}>
